@@ -15,20 +15,20 @@
         <h1>FasTip</h1>
         <a href="#settingsPage" id='settingsButton' class="ui-btn-right" data-role="button" data-icon="gear">Settings</a>
     </div>
-    <div data-role="content" class="">
+    <div data-role="content">
         <form>
             <div data-role="fieldcontain">
                 <label for="billAmount">Bill Amount:</label>
                 <input type="number" name="billAmount" id="billAmount" data-clear-btn="true" maxlength="3" value="" placeholder="Enter amount here">
             </div>
-            <p style="text-align: center;">
-                <a href="#" id="calcTip" data-role="button" data-icon="check">Calculate Tip</a>
+            <p style="text-align: center">
+                <a href="#" id="calcTip" data-role="button">Calculate Tip</a>
             </p>
-            <p class="amounts">
+            <p>
                 <label>Tip Amount</label>
                 <span id="tipAmount">0.00</span>
             </p>
-            <p class="amounts totals">
+            <p>
                 <label>Total Amount</label>
                 <span id="totalAmount">0.00</span>
             </p>
@@ -43,8 +43,8 @@
     <div data-role="content" class="">
         <form>
             <input type="number" name="tipPercentage" id="tipPercentage" value="" placeholder="Tip Percentage">
-            <p style="text-align: center;">
-                <a href="#" id='saveSettings' data-role="button" data-inline="true" data-icon="check">Save</a>
+            <p style="text-align: center">
+                <a href="#" id='saveSettings' data-role="button" data-inline="true">Save</a>
             </p>
         </form>
     </div>

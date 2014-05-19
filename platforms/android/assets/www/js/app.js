@@ -7,8 +7,8 @@
         var billAmt = Number( $('#billAmount').val() );
         var tipAmt =  billAmt * tipPercent/100 ;
         var totalAmt = billAmt + tipAmt;
-        $('#tipAmount').text('$' + tipAmt.toFixed(2));
-        $('#totalAmount').text('$' + totalAmt.toFixed(2));
+        $('#tipAmount').text(tipAmt.toFixed(2));
+        $('#totalAmount').text(totalAmt.toFixed(2));
     };
 
     var saveSettings = function() {
